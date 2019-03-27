@@ -233,7 +233,7 @@ endchoice
 
 choice
 	prompt "Temperature measurement device"
-	default TEMP_USE_SIM
+	default TEMP_USE_EXTERNAL
 	help
 		Select which device will provide temperature data.
 
